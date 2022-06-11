@@ -4,22 +4,85 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hephium</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Montserrat&display=swap" rel="stylesheet">
     <style>
-      #grad1 {
-        height: 10px;
+      /*img{
+        align-content: center;
+        height: 10rem;
+      }*/
+
+      * {
+        font-family: 'Montserrat', sans-serif;
+        -webkit-user-select: none; /* Safari */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
+      }
+      html{
+        background-image: linear-gradient(to right, #f7bbb580 57%, #fd64b680);
+
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        color: #fd64b6;
+        font-family: 'Dongle', sans-serif;
+        margin-bottom: 0.5rem;
+        //font-size: 3rem;
+      }
+      p {
+        font-family: 'Montserrat', sans-serif;
+        display: inline;
+        font-size: 1rem;
+        padding: 0.5rem;
+        margin: 0 1.5rem 0 1.5rem;
+        border-style: none;
+        color:azure;
         background-color: #fd64b6;
-        background-image: linear-gradient(to right, #f7bbb5 , #fd64b6);
+        color: white;
+        border-radius: 0.3rem;
+        text-align: center;
+      }
+      #title {
+        font-size: 2rem;
+      }
+      .container {
+        width: 100%;
+        max-width: 32rem;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 5rem;
+        }
+      section > div {
+        margin-left: auto;
+        margin-right: auto;
+        /*border-style: dotted;*/
+        }
+      .container > img {
+        width: 100%;
+        max-width: 32rem;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 3rem;
       }
     </style>
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-    <div class="container-fluid p-5 text-center">
-        <h1 class="display-1">Hephium</h1>
+      <section class="container">
+        <img src="Hephium_Logomark.png" alt="">
         <p>coming soon</p>
-    </div>
-    <div id="grad1"></div>
+      <section>
   </body>
 </html>
