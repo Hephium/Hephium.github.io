@@ -23,7 +23,8 @@
       }
       html{
         background-image: linear-gradient(to right, #f7bbb580 57%, #fd64b680);
-
+        margin: 0rem;
+        padding: 0rem;
       }
       body {
         margin: 0;
@@ -66,11 +67,6 @@
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
       }
-      section > div {
-        margin-left: auto;
-        margin-right: auto;
-        /*border-style: dotted;*/
-      }
       .container > img {
         width: 100%;
         max-width: 32rem;
@@ -94,12 +90,32 @@
               opacity: 1;
           }
       }
+      /*
+      article {
+        border-style: dotted;
+      }
+      */
+      .socials {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+        //border-style: dotted;
+      }
+      .socials > a > img {
+        max-width: 4rem;
+      }
     </style>
   </head>
   <body>
       <section class="container">
-        <img src="Hephium_Logomark.png" alt="">
+        <img src="Hephium_Logomark.png" alt="Hephium_Logomark">
         <p>coming soon</p>
-      <section>
+        <article class="socials">
+          <a href="https://www.instagram.com/hephium.llc/"><img src="social icons/ig.png" alt="instagram social"></a>
+          <a href="https://twitter.com/hephium"><img src="social icons/tw.png" alt="twitter social"></a>
+          <a href="https://www.facebook.com/hephium"><img src="social icons/fb.png" alt="facebook social"></a>
+          <a href="https://www.linkedin.com/company/hephium/"><img src="social icons/in.png" alt="linkedin social"></a>
+        </article>
+      </section>
   </body>
 </html>
